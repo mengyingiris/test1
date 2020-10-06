@@ -2,5 +2,32 @@
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <a-scene>
   <a-sky color="#bcb680"></a-sky>
+       <a-sphere  scale="1 0.5 0.5" position="1 1.6 -2" material="color:#bac5a5"
+        animation="property:position;
+            to:1 2 -2;
+            dur:4000;
+            easing:linear;
+            loop:true;
+            dir: alternate"
+      ></a-sphere>
+   <a-sphere  scale="1 0.6 0.5" position="-0.5 2 -2" material="color:#bac5a5"
+        animation="property:position;
+            to:-0.5 1.7 -2;
+            dur:6000;
+            easing:linear;
+            loop:true;
+            dir: alternate"
+      ></a-sphere>
+     <a-sphere  scale="8 1 1" position="-1 1 -2" material="color:#c0c78f"
+        
+      ></a-sphere>
+   <a-sphere  scale="0.8 0.4 0.5" position="0.2 2 -2" material="color:#bac5a5"
+        animation="property:position;
+            to:0.2 1.8 -2;
+            dur:5000;
+            easing:linear;
+            loop:true;
+            dir: alternate"
+      ></a-sphere>
   <a-entity></a-entity>
 </a-scene>
